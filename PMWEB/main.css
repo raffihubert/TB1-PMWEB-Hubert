@@ -1,0 +1,162 @@
+
+* {box-sizing: border-box;}
+
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  height: 80px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 20px;
+  /* justify-content: center; */
+  margin-left: 40px;
+}
+
+.header img{
+  margin-left: 90px;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.rectangle {
+    background-color: #195395;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+}
+.konten {
+    width: 100% ;
+    height: 100%;
+}
+.konten img{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    Display:inline-block;
+    background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0)
+    100%);
+    border-radius: 6px;
+    width: 280px;
+    height: 158px;
+    margin-left: 20px;
+    margin-top: 45px;
+
+}
+
+.section1 h2{
+    position: absolute;
+    margin-left: 6%;
+    margin-top: -8%;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.section2{
+    margin-top: 95px;
+    color: #4A4A4A;
+ font-family: Ubuntu;
+ font-size: 16px;
+ line-height: 30px;
+ /* width: 750px; */
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+ 
+
+    
+}
+hr{
+    Float: center;
+     width: 90%; 
+     border: 1px solid #EAEAEA;  
+}
+
+.hubert {
+    background-image: linear-gradient(90deg, #46074E 0.36%, rgba(25, 123, 208,
+0.8) 100%);
+ border-radius: 22.5px;
+ width: 200px;
+ height: 45px;
+ color: #FFFFFF;
+ font-family: Ubuntu;
+ font-size: 15px;
+ line-height: 18px;
+ text-align: center;
+}
+
+.hubird {
+    border: 1px solid #46074E;
+ border-radius: 22.5px;
+ width: 200px;
+ height: 45px;
+ color: #336195;
+ font-family: Ubuntu;
+ font-size: 15px;
+ line-height: 18px;
+ text-align: center;
+}
+
+.hint1 {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 85px;
+    width: 100%;
+    background-color: linear-gradient(90deg,#46074E 0%,rgba(25,123,208,0.8)100%);
+    background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+    text-align: center;
+    color: white;
+    padding: 17px;
+}
